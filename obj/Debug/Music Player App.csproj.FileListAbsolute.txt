@@ -1,0 +1,24 @@
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\bin\Debug\Music Player App.exe.config
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\bin\Debug\Music Player App.exe
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\bin\Debug\Music Player App.pdb
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\bin\Debug\Guna.UI2.dll
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\obj\Debug\Music Player App.csprojAssemblyReference.cache
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\obj\Debug\Music_Player_App.Form1.resources
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\obj\Debug\Music_Player_App.Properties.Resources.resources
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\obj\Debug\Music Player App.csproj.GenerateResource.cache
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\obj\Debug\Music Player App.csproj.CoreCompileInputs.cache
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\obj\Debug\Music Player App.csproj.CopyComplete
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\obj\Debug\Music Player App.exe
+D:\AW 17\Source Code Visual Studio 19\Music Player App\Music Player App\obj\Debug\Music Player App.pdb
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\bin\Debug\Music Player App.exe.config
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\bin\Debug\Music Player App.exe
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\bin\Debug\Music Player App.pdb
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\bin\Debug\Guna.UI2.dll
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\obj\Debug\Music Player App.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\obj\Debug\Music_Player_App.Form1.resources
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\obj\Debug\Music_Player_App.Properties.Resources.resources
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\obj\Debug\Music Player App.csproj.GenerateResource.cache
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\obj\Debug\Music Player App.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\obj\Debug\Music Player App.csproj.CopyComplete
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\obj\Debug\Music Player App.exe
+C:\Users\dell\Desktop\Hello-Music-App-main\Music Player App\obj\Debug\Music Player App.pdb

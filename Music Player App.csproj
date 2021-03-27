@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E147D55D-5C47-4886-BBA2-ADCBD6FD3B1E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Music_Player_App</RootNamespace>
+    <AssemblyName>Music Player App</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love_100px.png11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microphone_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microphone_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music_100px.png11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music_1001px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute_100px.png11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opened_folder_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opened_folder_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radio_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radio_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeat_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeat_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffle_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffle_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skip_to_start_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skip_to_start_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The_Weeknd_-_Blinding_Lights.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time_machine_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time_machine_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24kGoldn_-_Mood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91YkqYA1BWL._AC_SX522_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a9df459bfd64368b8f5069c4685e2cc4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\albums_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\albums_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\artworks-UeR6NTfa9JPHA0c3-7uaXOA-t500x500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\briefcase_300px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cardi_B_-_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_layout_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloading_updates_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloading_updates_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drivers_License_by_Olivia_Rodrigo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_open_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_open_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\end_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\end_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love_100px.p11g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love_100px.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\migos-culture-2-album-art-2018-billboard-1240-compressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nirvana-nevermind-1474471263.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Popularsongmika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taylor-Swift-Lover-album-art-2019-billboard-1240-compressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220px-Ed_Sheeran_Perfect_Single_cover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pop.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
